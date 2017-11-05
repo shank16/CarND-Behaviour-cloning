@@ -18,11 +18,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
+[image1]: ./examples/nVidia_model.png "Model Archietecture"
+[image2]: ./examples/placeholder.png "Model Visualization"
+[image3]: ./examples/center_2016_12_01_13_31_14_295.jpg "Center Lane driving"
+[image4]: ./examples/placeholder_small.png "Original_Image "
+[image5]: ./examples/placeholder_small.png "Flipped Image"
 [image5]: ./examples/placeholder_small.png "Recovery Image"
 [image6]: ./examples/placeholder_small.png "Normal Image"
 [image7]: ./examples/placeholder_small.png "Flipped Image"
@@ -38,7 +38,7 @@ The goals / steps of this project are the following:
 My project includes the following files:
 * model.ipynb containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network 
+* modeltr1.h5 containing a trained convolution neural network for track 1
 * writeup_report.md or writeup_report.pdf summarizing the results
 
 #### 2. Submission includes functional code
@@ -100,13 +100,13 @@ The final model architecture (model.ipynb) consisted of a convolution neural net
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-![alt text][image1]
+![alt text][image2]
 
 #### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+![alt text][image3]
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recover to center. 
 
