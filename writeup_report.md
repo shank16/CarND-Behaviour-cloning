@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/nVidia_model.png "Model Archietecture"
 [image2]: ./examples/placeholder.png "Model Visualization"
 [image3]: ./examples/center_2016_12_01_13_31_14_295.jpg "Center Lane driving"
-[image4]: ./examples/placeholder_small.png "Original_Image "
+[image4]: ./examples/preprocess_images.png "preprocess_Image "
 [image5]: ./examples/placeholder_small.png "Flipped Image"
 [image5]: ./examples/placeholder_small.png "Recovery Image"
 [image6]: ./examples/placeholder_small.png "Normal Image"
@@ -113,12 +113,11 @@ I then recorded the vehicle recovering from the left side and right sides of the
 
 Then I repeated this process on track two in order to get more data points.
 
-To augment the data sat, I also flipped images and angles thinking that this would give me more generalized behaviour to train For example, here is an image that has then been flipped:
+To augment the data sat, I also flipped images and angles thinking that this would give me more generalized behaviour to train.
 
-![alt text][image6]
-![alt text][image7]
 
 After that I also used preprocessing of images described above and some exampels are as below:
+![alt text][image4]
 
 
 After the collection process, I had 8037 number of data points for track 1 and 5037 nuber of data points for track2 . I then preprocessed this data by described in previous part
